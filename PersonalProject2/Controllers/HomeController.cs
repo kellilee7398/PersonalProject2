@@ -16,11 +16,11 @@ namespace PersonalProject2.Controllers
             return View("Login");
         }
         [HttpPost]
-        public ViewResult Login(ResponseEntry responseEntry)
+       /* public ViewResult Login(ResponseEntry responseEntry)
         {
             Respository.AddResponse(responseEntry);
             return View();
-        }
+        }*/
         
 
         public IActionResult About()
